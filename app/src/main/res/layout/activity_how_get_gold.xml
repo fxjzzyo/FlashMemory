@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    
+    >
+    <include 
+        layout="@layout/head"
+        />
+    <TextView 
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您可以通过点击应用右上角“更多”按钮获取更多应用。\n下载应用即可获得积分，也就相当于获得金币。\n还可以通过菜单中的“分享获取金币”选项分享到微信好友或朋友圈。\n好友点击后即可获取金币，一次分享坐收无限金币哦。\n快去下载更多好玩的应用，获取金币吧！"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

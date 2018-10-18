@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.fxj.flashmemory.MainActivity">
+
+    <include layout="@layout/head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_practice"
+            style="@style/btnStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="练习模式"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_test"
+            style="@style/btnStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_practice"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="测试模式"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_adventure"
+            style="@style/btnStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_test"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="冒险模式"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_record"
+            style="@style/btnStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_adventure"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="最高记录"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/gold_icon32"
+        android:text="0"
+        android:textColor="#D9D919"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="更多"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+</FrameLayout>

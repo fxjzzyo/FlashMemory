@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fxj.flashmemory.MainActivity" >
+
+
+    <!-- <item
+           android:id="@+id/menu_more"
+           android:orderInCategory="100"
+           android:title="@string/menu_more"
+           />
+       <item
+           android:id="@+id/menu_fade_back"
+           android:orderInCategory="100"
+           android:title="@string/menu_fade_back"
+           />-->
+     <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        />
+      <!--<item
+        android:id="@+id/menu_share"
+        android:orderInCategory="100"
+        android:title="@string/menu_share"
+        />
+       <item
+        android:id="@+id/menu_how"
+        android:orderInCategory="100"
+        android:title="@string/menu_how"
+        />-->
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">记忆闪现</string>
+    <string name="action_settings">设置播放速度</string>
+     <string name="menu_more">更多应用</string>
+      <string name="menu_share">分享获取金币</string>
+     <string name="menu_fade_back">意见反馈</string>
+     <string name="menu_how">怎样获取金币？</string>
+   <string name="card_count">[5,50]</string>
+    <string name="time_limit">[10,250]</string>
+</resources>
